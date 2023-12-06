@@ -1,0 +1,40 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringstype/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringstype/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+colt:bemonsteringstypes
+        rdf:type        skos:Collection;
+        dc:identifier   "bemonsteringstypes";
+        skos:inScheme   cs:bemonsteringstype;
+        skos:member     ct:vloeistof , ct:ongeroerd , ct:geroerd;
+        skos:prefLabel  "Collectie van bemonsteringstypes."@nl .
+
+ct:ongeroerd  rdf:type     skos:Concept;
+        dc:identifier      "ongeroerd";
+        skos:inScheme      cs:bemonsteringstype;
+        skos:prefLabel     "Ongeroerd"@nl;
+        skos:topConceptOf  cs:bemonsteringstype .
+
+cs:bemonsteringstype  rdf:type  skos:ConceptScheme;
+        dc:identifier       "bemonsteringstype";
+        skos:definition     "Aard van de Bemonstering."@nl;
+        skos:hasTopConcept  ct:vloeistof , ct:ongeroerd , ct:geroerd;
+        skos:prefLabel      "Codelijst bemonsteringstype."@nl .
+
+ct:geroerd  rdf:type       skos:Concept;
+        dc:identifier      "geroerd";
+        skos:inScheme      cs:bemonsteringstype;
+        skos:prefLabel     "Geroerd"@nl;
+        skos:topConceptOf  cs:bemonsteringstype .
+
+ct:vloeistof  rdf:type     skos:Concept;
+        dc:identifier      "vloeistof";
+        skos:inScheme      cs:bemonsteringstype;
+        skos:prefLabel     "Vloeistof"@nl;
+        skos:topConceptOf  cs:bemonsteringstype .
