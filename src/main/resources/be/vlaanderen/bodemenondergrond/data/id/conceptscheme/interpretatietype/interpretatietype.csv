@@ -1,0 +1,11 @@
+"uri","type","dc.id","collection","notation","prefLabel","altLabel","broader","broaderTransitive","broadMatch","changeNote","closeMatch","definition","editorialNote","exactMatch","example","hiddenLabel","historyNote","inScheme","mappingRelation","note","related","relatedMatch","scopeNote","semanticRelation","topConceptOf"
+"colt:interpretatietype","skos:Collection","interpretatietype",,,"Collectie van interpretatietype.",,,,,,,,,,,,,"cs","interpretatietype",,,,,,
+"ct:1","skos:Concept","1","colt:interpretatietype",,"Informele stratigrafie",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:11","skos:Concept","11","colt:interpretatietype",,"Hydrogeologische stratigrafie (HCOVv2)",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:2","skos:Concept","2","colt:interpretatietype",,"Formele stratigrafie",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:3","skos:Concept","3","colt:interpretatietype",,"Lithologische beschrijving",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:4","skos:Concept","4","colt:interpretatietype",,"Gecodeerde lithologie",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:5","skos:Concept","5","colt:interpretatietype",,"Hydrogeologische stratigrafie (HCOVv1)",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:6","skos:Concept","6","colt:interpretatietype",,"Quartaire stratigrafie",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:8","skos:Concept","8","colt:interpretatietype",,"Geotechnische codering",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"
+"ct:9","skos:Concept","9","colt:interpretatietype",,"Informele hydrostratigrafie",,,,,,,,,,,,,"cs:interpretatietype",,,,,,,"cs:interpretatietype"

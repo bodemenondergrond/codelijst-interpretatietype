@@ -232,6 +232,8 @@ f_genereer_datasetversie <- function(dataset_template) {
   df <- df %>% arrange(recordtype, id)
 
   csv_distributie <- paste(dataset_distributie_pad, ds_distributie_naam, ".csv", sep="")
+
+  dir.create(dataset_distributie_pad, recursive = TRUE)
   write.csv(df, csv_distributie, row.names = FALSE, na='', fileEncoding='UTF-8')
   ## TODO hasversion
   write_rdf_distributies(df, dataset_distributie_pad, ds_distributie_naam)
@@ -270,6 +272,8 @@ f_genereer_catalog <- function() {
   catalog_df <- catalog_df %>% arrange(recordtype, id)
 
   csv_distributie <- paste(catalog_distributie_pad, cat_distributie_naam, ".csv", sep="")
+
+  dir.create(catalog_distributie_pad, recursive = TRUE)
   write.csv(catalog_df, csv_distributie, row.names = FALSE, na='', fileEncoding='UTF-8')
 
   ## TODO hasversion

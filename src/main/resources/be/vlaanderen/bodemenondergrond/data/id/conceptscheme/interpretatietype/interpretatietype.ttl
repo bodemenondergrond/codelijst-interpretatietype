@@ -1,0 +1,74 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/interpretatietype/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ct:5    rdf:type           skos:Concept;
+        dc:identifier      "5";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Hydrogeologische stratigrafie (HCOVv1)"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+colt:interpretatietype
+        rdf:type              skos:Collection;
+        dc:identifier         "interpretatietype";
+        skos:inScheme         <file:///tmp/Rtmp5D0TRa/cs>;
+        skos:mappingRelation  <file:///tmp/Rtmp5D0TRa/interpretatietype>;
+        skos:member           ct:6 , ct:8 , ct:11 , ct:9 , ct:2 , ct:3 , ct:1 , ct:4 , ct:5;
+        skos:prefLabel        "Collectie van interpretatietype."@nl .
+
+cs:interpretatietype  skos:hasTopConcept
+                ct:11 , ct:5 , ct:9 , ct:8 , ct:6 , ct:4 , ct:3 , ct:2 , ct:1 .
+
+ct:2    rdf:type           skos:Concept;
+        dc:identifier      "2";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Formele stratigrafie"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:9    rdf:type           skos:Concept;
+        dc:identifier      "9";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Informele hydrostratigrafie"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:4    rdf:type           skos:Concept;
+        dc:identifier      "4";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Gecodeerde lithologie"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:6    rdf:type           skos:Concept;
+        dc:identifier      "6";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Quartaire stratigrafie"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:1    rdf:type           skos:Concept;
+        dc:identifier      "1";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Informele stratigrafie"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:11   rdf:type           skos:Concept;
+        dc:identifier      "11";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Hydrogeologische stratigrafie (HCOVv2)"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:3    rdf:type           skos:Concept;
+        dc:identifier      "3";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Lithologische beschrijving"@nl;
+        skos:topConceptOf  cs:interpretatietype .
+
+ct:8    rdf:type           skos:Concept;
+        dc:identifier      "8";
+        skos:inScheme      cs:interpretatietype;
+        skos:prefLabel     "Geotechnische codering"@nl;
+        skos:topConceptOf  cs:interpretatietype .

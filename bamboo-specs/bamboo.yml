@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: DOV
-  key: DOVBEMONSTERINGSTYPE
-  name: codelijst-bemonsteringstype
+  key: DOVINTERPRETATIETYPE
+  name: codelijst-interpretatietype
 
 triggers:
   - polling: 130
@@ -71,7 +71,7 @@ Release:
 ---
 version: 2
 plan:
-  key: DOV-DOVBEMONSTERINGSTYPE
+  key: DOV-DOVINTERPRETATIETYPE
 
 plan-permissions:
   - groups:

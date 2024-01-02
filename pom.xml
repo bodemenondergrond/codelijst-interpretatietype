@@ -8,17 +8,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-interpretatietypes</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-interpretatietype</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-interpretatietypes</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-interpretatietype</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-interpretatietypes.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-interpretatietypes.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-interpretatietypes.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-interpretatietype.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-interpretatietype.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-interpretatietype.git</url>
     <tag>HEAD</tag>
   </scm>
   <build>

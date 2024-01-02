@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/3"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/2"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/5"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/4"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/6"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/9"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/8"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/1"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/11"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

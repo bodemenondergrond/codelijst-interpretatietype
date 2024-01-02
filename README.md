@@ -1,8 +1,8 @@
-# codelijst-interpretatietypes
+# codelijst-interpretatietype
 
 ## Samenvatting
 
-De codelijst 'interpretatietypes' bevat eenduidige benamingen van ...
+De codelijst 'interpretatietype' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud
