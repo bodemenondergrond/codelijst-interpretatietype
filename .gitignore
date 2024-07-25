@@ -15,3 +15,8 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+node_modules
+temp
+codelijst-interpretatietype.iml
+src/.env
+src/utils/setenv.js
