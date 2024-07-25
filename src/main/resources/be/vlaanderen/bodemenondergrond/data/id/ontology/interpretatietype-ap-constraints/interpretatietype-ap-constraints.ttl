@@ -75,12 +75,12 @@ ons:collection
 
 
 
-ons:matrix
+ons:concept
     a                sh:NodeShape ;
-    rdfs:label       "matrix"@en ;
-    sh:name          "matrix"@en ;
-    sh:description   "analysemethodes"@en ;
-    rdfs:comment     "compendia onderhouden door VITO"@en ;
+    rdfs:label       "concepten over interpretatietypes"@en ;
+    sh:name          "concepten over interpretatietypes"@en ;
+    sh:description   "interpretatietypes"@en ;
+    rdfs:comment     "compendium onderhouden door DOV"@en ;
     rdfs:isDefinedBy omg_ont:interpretatietype, omg_voc:interpretatietype ;
     sh:property      omg_ps:notation, omg_ps:inScheme,
                      omg_ps:references, omg_ps:definition,
