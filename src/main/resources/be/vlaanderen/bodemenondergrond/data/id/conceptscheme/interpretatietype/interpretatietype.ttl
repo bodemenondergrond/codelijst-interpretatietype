@@ -54,66 +54,70 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:interpretatietype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.interpretatietype.interpretatietype";
-    a skos:Collection;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/9>;
-    skos:prefLabel "Collectie van interpretatietype."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/11> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.11";
+concept:formele dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.formele";
     a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen in stratigrafische eenheden die gedefinieerd zijn door de Nationale Stratigrafische Commissie. "@nl;
     skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "11";
-    skos:prefLabel "Hydrogeologische stratigrafie (HCOVv2)"@nl;
-    skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.1";
-    a skos:Concept;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "1";
-    skos:prefLabel "Informele stratigrafie"@nl;
-    skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.2";
-    a skos:Concept;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "2";
+    skos:note "Classificatie van de beschreven intervallen in stratigrafische eenheden die gedefinieerd zijn door de Nationale Stratigrafische Commissie. "@nl;
     skos:prefLabel "Formele stratigrafie"@nl;
     skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.3";
+concept:gecodeerde dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.gecodeerde";
     a skos:Concept;
+    skos:definition "Gecodeerde beschrijving van de aard van de sedimenten en gesteenten in de ondergrond (bv. kleur, hoofdnaam, bijnaam, …), in discrete intervallen."@nl;
     skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "3";
-    skos:prefLabel "Lithologische beschrijving"@nl;
-    skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.4";
-    a skos:Concept;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "4";
+    skos:note "Gecodeerde beschrijving van de aard van de sedimenten en gesteenten in de ondergrond (bv. kleur, hoofdnaam, bijnaam, …), in discrete intervallen."@nl;
     skos:prefLabel "Gecodeerde lithologie"@nl;
     skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/5> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.5";
+concept:geotechnische dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.geotechnische";
     a skos:Concept;
+    skos:definition "Gecodeerde beschrijving in discrete intervallen van de aard van de sedimenten en gesteenten in de ondergrond (bv. hoofdnaam, bijnaam, …) met betrekking tot bouwkundige toepassingen en stabiliteit en rekeninghoudend met verschillende observaties zoals lithologische beschrijving, terreinboorstaten, resultaten van laboratoriumproeven en sonderingen."@nl;
     skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "5";
-    skos:prefLabel "Hydrogeologische stratigrafie (HCOVv1)"@nl;
-    skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/6> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.6";
-    a skos:Concept;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "6";
-    skos:prefLabel "Quartaire stratigrafie"@nl;
-    skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/8> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.8";
-    a skos:Concept;
-    skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "8";
+    skos:note "Gecodeerde beschrijving in discrete intervallen van de aard van de sedimenten en gesteenten in de ondergrond (bv. hoofdnaam, bijnaam, …) met betrekking tot bouwkundige toepassingen en stabiliteit en rekeninghoudend met verschillende observaties zoals lithologische beschrijving, terreinboorstaten, resultaten van laboratoriumproeven en sonderingen."@nl;
     skos:prefLabel "Geotechnische codering"@nl;
     skos:topConceptOf conceptscheme:interpretatietype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/9> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.9";
+concept:hydrogeologischeHCOVv1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.hydrogeologischeHCOVv1";
     a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen in hydrogeologische eenheden, volgens de hydrogeologische codering HCOVv1 bepaald in het hydrogeologisch model H3Dv1."@nl;
     skos:inScheme conceptscheme:interpretatietype;
-    skos:notation "9";
+    skos:note "Classificatie van de beschreven intervallen in hydrogeologische eenheden, volgens de hydrogeologische codering HCOVv1 bepaald in het hydrogeologisch model H3Dv1."@nl;
+    skos:prefLabel "Hydrogeologische stratigrafie (HCOVv1)"@nl;
+    skos:topConceptOf conceptscheme:interpretatietype.
+concept:hydrogeologischeHCOVv2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.hydrogeologischeHCOVv2";
+    a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen in hydrogeologische eenheden, volgens de hydrogeologische codering HCOVv2 bepaald in het hydrogeologisch model H3Dv2."@nl;
+    skos:inScheme conceptscheme:interpretatietype;
+    skos:note "Classificatie van de beschreven intervallen in hydrogeologische eenheden, volgens de hydrogeologische codering HCOVv2 bepaald in het hydrogeologisch model H3Dv2."@nl;
+    skos:prefLabel "Hydrogeologische stratigrafie (HCOVv2)"@nl;
+    skos:topConceptOf conceptscheme:interpretatietype.
+concept:informele dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.informele";
+    a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen in stratigrafische eenheden die niet noodzakelijk hetzelfde zijn als de eenheden gedefinieerd door de Nationale Stratigrafische Commissie (vrije beschrijving)."@nl;
+    skos:inScheme conceptscheme:interpretatietype;
+    skos:note "Classificatie van de beschreven intervallen in stratigrafische eenheden die niet noodzakelijk hetzelfde zijn als de eenheden gedefinieerd door de Nationale Stratigrafische Commissie (vrije beschrijving)."@nl;
+    skos:prefLabel "Informele stratigrafie"@nl;
+    skos:topConceptOf conceptscheme:interpretatietype.
+concept:informelehydro dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.informelehydro";
+    a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen in grondwatervoerende en afsluitende éénheden die niet noodzakelijk een formeel gedefinieerd model volgen. "@nl;
+    skos:inScheme conceptscheme:interpretatietype;
+    skos:note "Classificatie van de beschreven intervallen in grondwatervoerende en afsluitende éénheden die niet noodzakelijk een formeel gedefinieerd model volgen. "@nl;
     skos:prefLabel "Informele hydrostratigrafie"@nl;
+    skos:topConceptOf conceptscheme:interpretatietype.
+concept:lithologische dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.lithologische";
+    a skos:Concept;
+    skos:definition "Vrije beschrijving van de aard van sedimenten en gesteenten in de ondergrond (bv. grondsoort, korrelgrootte, kleur, …), in discrete intervallen."@nl;
+    skos:inScheme conceptscheme:interpretatietype;
+    skos:note "Vrije beschrijving van de aard van sedimenten en gesteenten in de ondergrond (bv. grondsoort, korrelgrootte, kleur, …), in discrete intervallen."@nl;
+    skos:prefLabel "Lithologische beschrijving"@nl;
+    skos:topConceptOf conceptscheme:interpretatietype.
+concept:quartaire dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.interpretatietype.quartaire";
+    a skos:Concept;
+    skos:definition "Classificatie van de beschreven intervallen behorende tot het Quartair, in éénheden gedefinieerd tijdens de opmaak van de Quartairgeologische kaarten."@nl;
+    skos:inScheme conceptscheme:interpretatietype;
+    skos:note "Classificatie van de beschreven intervallen behorende tot het Quartair, in éénheden gedefinieerd tijdens de opmaak van de Quartairgeologische kaarten."@nl;
+    skos:prefLabel "Quartaire stratigrafie"@nl;
     skos:topConceptOf conceptscheme:interpretatietype.
 conceptscheme:interpretatietype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.interpretatietype";
     a skos:ConceptScheme;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/9>;
+    skos:hasTopConcept concept:formele, concept:gecodeerde, concept:geotechnische, concept:hydrogeologischeHCOVv1, concept:hydrogeologischeHCOVv2, concept:informele, concept:informelehydro, concept:lithologische, concept:quartaire;
     skos:prefLabel "Lijst van interpretatietypes"@nl.

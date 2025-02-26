@@ -2,15 +2,15 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-interpretatietype">
   <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.interpretatietype">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/1" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/11" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/2" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/3" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/4" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/5" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/6" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/8" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/9" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/formele" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/gecodeerde" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/geotechnische" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/hydrogeologischeHCOVv1" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/hydrogeologischeHCOVv2" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/informele" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/informelehydro" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/lithologische" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/quartaire" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
